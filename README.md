@@ -20,5 +20,3 @@ git clone https://github.com/yourusername/huffman-compression-encryption.git
 
 
 
-### Navigate into the project directory:
-
