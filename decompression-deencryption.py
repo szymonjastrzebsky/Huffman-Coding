@@ -9,7 +9,7 @@ tab_of_ascii_lists = [[col + row - 256 if col + row > 255 else col + row
 key = input('Podaj klucz: ')
 
 if len(key) == 0:
-    print('Brak klucza')
+    print('Brak klucza!')
     exit()
 
 j = 0
@@ -46,5 +46,6 @@ try:
 
     with open('zdekompresowany.txt', 'w') as file:
         file.write(''.join(decompressed))
+
 except (ValueError, IndexError):
-    print('Nieprawidlowy klucz')
+    print('Nieprawidlowy klucz!')
