@@ -16,3 +16,8 @@ This project implements a two-stage data processing pipeline combining Huffman c
 
 Clone this repository to your local machine using:
 
+git clone https://github.com/yourusername/huffman-compression-encryption.git
+
+
+Navigate into the project directory:
+
